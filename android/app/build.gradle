@@ -97,6 +97,11 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
     buildToolsVersion rootProject.ext.buildToolsVersion
 
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+
     defaultConfig {
         applicationId "com.foodapprn"
         minSdkVersion rootProject.ext.minSdkVersion
